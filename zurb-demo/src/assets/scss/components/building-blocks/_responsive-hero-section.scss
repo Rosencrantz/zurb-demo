@@ -1,0 +1,15 @@
+$hero-height: 60vh;
+
+.hero-section {
+  background: url('/assets/img/hero.jpg') 50% no-repeat;
+  background-size: cover;
+  height: $hero-height;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .hero-section-text {
+    color: rgb(51, 51, 153);
+  }
+}

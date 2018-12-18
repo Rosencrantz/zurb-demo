@@ -1,0 +1,52 @@
+.top-bar {
+    background-color: rgba(0,0,0,.3);
+    height: 100px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    margin-top: -7px;
+}
+
+.top-bar ul {
+    background: none;
+}
+
+.top-bar-right,
+.dropdown,
+.menuitem {
+    height: 100%;
+}
+
+.dropdown.menu > li > a {
+    color: rgba(255,255,255,1);
+    padding-top: 47px;
+    border-top: 3px solid transparent;
+    transition: border-color .3s ease-in;
+}
+
+.dropdown.menu > li > a:hover {
+    border-color: white;
+}
+
+.hero-section-text {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin-top: 10%;
+    text-align: left;
+    padding: 0 0.9375rem;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.cell {
+    border: 1px solid #999;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
